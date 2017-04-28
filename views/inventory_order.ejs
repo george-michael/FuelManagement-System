@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<% include ./partials/header %>
+
+<body>
+
+<div ng-controller="fuelController">
+  <div class="container">
+    <div class="row">
+      <h1 class="page-header">Enter a Shipment Delivery</h1>
+      <div style="width: 40%; margin: 30px auto;">
+        <br>
+        Arival Date:       <input class="form-control" type="datetime-local" ng-model="date"/>  
+        <br>
+        Fuel Type:  <br><select class="selectpicker" ng-model="type">
+                <option>Oil</option>
+                <option>Propane</option>
+                <option>Gasoline</option>
+              </select>
+        <br><br>
+        Amount:    <input class="form-control" type="number" ng-model="amount"/>
+        Price:     <input class="form-control" type="number" ng-model="price"/>
+        <br><br>
+        <a href="#" class="btn btn-default"
+        ng-click="postOrderFromInvManager()">Submit</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<% include ./partials/footer %>

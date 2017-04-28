@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<% include ./partials/header %>
+s
+<h1><center><u>Owner Dashboard</u><center></h1>
+
+<div class="row" style="width: 90%; margin: 50px auto;">
+
+
+     <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="thumbnailDriver">
+								<p><center><b>View Delivery Driver Inferface</b></center></p>
+                  <p>
+                      <a id="deliveryButton" href="/delivery" class="btn btn-primary">Go!</a>
+                  </p>
+
+          </div>
+      </div>
+
+      <div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="thumbnailInventory">
+              <div class="caption">
+                  <p><b><center>View Inventory Manager Interface</center></b></p>
+                  <p>
+                      <a id="inventoryButton" href="/inventory" class="btn btn-primary">Go!</a>
+                  </p>
+              </div>
+          </div>
+      </div>
+
+			<div class="col-md-6 col-sm-6 col-xs-6">
+          <div class="thumbnailOrders">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+									<p><b>View Pending Orders</b></p>
+                  <p>
+                   <a id="orderButton" href="/owner/pendingorders" class="btn btn-primary">Go!</a>
+                  </p>
+                </div>
+            <div class="col-md-6 col-sm-6 col-xs-6">
+									<p><b>View All Orders</b></p>
+									<p>
+                   <a id="orderButton" href="/owner/orderlist" class="btn btn-primary">Go!</a>
+                  </p>
+                </div>
+          </div>
+      </div>
+			<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="thumbnailReport">
+									<p><center><b>View Sales and Profit Report</b></center></p>
+									<p>
+                   <a id="reportButton" href="/owner/report" class="btn btn-primary">Go!</a>
+									</p>
+					</div>
+			</div>
+</div>
+
+
+
+
+<% include ./partials/footer %>

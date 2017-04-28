@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<% include ./partials/header %>
+
+<body>
+
+<div ng-controller="fuelController">
+  <div class="container">
+    <div class="row">
+      <h1 class="page-header">Enter a Delivery</h1>
+      <div style="width: 40%; margin: 30px auto;">
+        <br>
+        First Name: <input class="form-control" type="text" ng-model="firstName"/>
+        Last Name:  <input class="form-control" type="text" ng-model="lastName"/>
+        Date:       <input class="form-control" type="datetime-local" ng-model="dateTime"/>
+        Address:    <input class="form-control" type="text" ng-model="address"/>
+        City:       <input class="form-control" type="text" ng-model="city"/>
+        State:      <input class="form-control" type="text" ng-model="state"/>
+        Zip:        <input class="form-control" type="number" ng-model="zip"/>
+        <br>
+        Fuel Type:  <br><select class="selectpicker" ng-model="type">
+                <option>Oil</option>
+                <option>Propane</option>
+                <option>Gasoline</option>
+              </select>
+        <br><br>
+        Amount:    <input class="form-control" type="number" ng-model="amount"/>
+        Price:     <input class="form-control" type="number" ng-model="price"/>
+        <br><br>
+        <a href="#" class="btn btn-default"
+        ng-click="postOrderFromDelivery()">Submit</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<% include ./partials/footer %>
