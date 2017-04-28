@@ -1,6 +1,6 @@
 # CSI418 - Fuel Management System
 
-## Developed by Michael George and Brian Guilder
+Developed by Michael George and Brian Guilder for ICSI418Y Software Engineering
 
 
 
