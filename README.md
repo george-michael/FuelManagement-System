@@ -1,5 +1,9 @@
 # CSI418 - Fuel Management System
 
+## Developed by Michael George and Brian Guilder
+
+
+
 ## Getting Started
 
 1. Clone the repo (https://help.github.com/articles/cloning-a-repository/)
@@ -8,12 +12,3 @@
 4. cd into your working directory
 5. Install dependencies (npm install)
 6. Start the server 👍 ```nodemon app.js```
-
-
-MongoLab: 
-
-user: csi418-3
-
-account: CSI418
-
-password: password1
