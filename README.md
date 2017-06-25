@@ -1,6 +1,6 @@
 # CSI418 - Fuel Management System
 
-Developed by Michael George and Brian Guilder for ICSI418Y Software Engineering
+Developed by Michael George, Brian Guilder, and Jasmin McPherson for ICSI418Y Software Engineering @ University at Albany. This project was built for a "client" which sells fuels, it is designed to manage their inventories and provide usablity and acessablity for their employees and customers.
 
 
 
